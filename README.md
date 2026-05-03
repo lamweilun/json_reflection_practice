@@ -37,11 +37,10 @@ int main()
 {
     std::println("{}", parse_json(Foo{}));
 
-    // Output:
-    // {"i": 1, "f": 3.1415, "b": true, "s": "Hello World"}
+    // Output: {"i": 1, "f": 3.1415, "b": true, "s": "Hello World"}
 }
 ```
 
 ## Remarks
 - This parser is written as a form of practice.
-- Please take a look at [glaze](github.com/stephenberry/glaze) for a proper C++26 reflection based JSON serialization library.
+- Please take a look at [glaze](https://www.github.com/stephenberry/glaze) for a proper C++26 reflection based JSON serialization library.
