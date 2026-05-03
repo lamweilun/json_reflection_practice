@@ -1,0 +1,63 @@
+{
+    "bar": {
+        "Foo": {
+            "i": 123,
+            "f": 3.1415,
+            "b": false,
+            "str": "Foo",
+            "str_view": "Foo string_view",
+            "pair": [
+                456,
+                "pair"
+            ],
+            "tup": [
+                789,
+                -1.9,
+                "tuple"
+            ],
+            "c_array": [
+                -1,
+                -2,
+                -3,
+                -4,
+                -5
+            ],
+            "std_array": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "std_vector": [
+                1.23,
+                4.56,
+                7.89
+            ],
+            "std_set": [
+                "Hello",
+                "World"
+            ],
+            "std_unordered_set": [
+                "World",
+                "Hello"
+            ],
+            "std_map": {
+                "Hello": 1,
+                "World": 2
+            },
+            "std_unordered_map": {
+                "World": false,
+                "Hello": true
+            },
+            "color": "Red"
+        },
+        "optional_color": "Red",
+        "optional_color2": null,
+        "default_variant": 0,
+        "int_or_string1": 1,
+        "int_or_string2": "std::string",
+        "string_unique_ptr_null": null,
+        "string_unique_ptr": "std::unique_ptr"
+    }
+}
