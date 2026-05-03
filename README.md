@@ -18,6 +18,29 @@
     - `std::optional`
     - `std::variant`
 
+## Sample Usage
+```C++
+#include "json_parser.hpp"
+
+#include <string>
+#include <print>
+
+struct Foo
+{
+    int i = 1;
+    float f = 3.1415f;
+    bool b = true;
+    std::string s = "Hello World";
+};
+
+int main()
+{
+    std::println("{}", parse_json(Foo{}));
+
+    // Output:
+    // {"i": 1, "f": 3.1415, "b": true, "s": "Hello World"}
+}
+```
 
 ## Remarks
 - This parser is written as a form of practice.
